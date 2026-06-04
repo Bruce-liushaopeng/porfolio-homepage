@@ -5,11 +5,10 @@ import Section from '../components/layouts/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/articles'
-import {GoMarkGithub} from 'react-icons/go'
+import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import { FaPython} from 'react-icons/fa'
-import {SiJavascript, SiJava,SiHtml5,SiCss3, SiTypescript, SiMongodb, SiSpring, SiAngular, SiReact} from 'react-icons/si'
-import { GrMysql} from 'react-icons/gr'
+import {SiJavascript, SiJava, SiHtml5, SiCss3, SiTypescript, SiMongodb, SiSpring, SiAngular, SiReact, SiMysql} from 'react-icons/si'
 import { DiNodejs} from 'react-icons/di'
 const Page = () =>{
     return (
@@ -56,7 +55,7 @@ const Page = () =>{
                <Icon ml="9px" as={SiJava} boxSize="9" bg="none" color="teal.400"/>
                <Icon ml="9px" as={FaPython} boxSize="9" bg="none" color="teal.400"/>
                <Icon ml="9px" as={DiNodejs} boxSize="9" bg="none" color="teal.400"/>
-               <Icon ml="9px" as={GrMysql} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiMysql} boxSize="9" bg="none" color="teal.400"/>
                <Icon ml="9px" as={SiMongodb} boxSize="9" bg="none" color="teal.400"/>
            </List>
             
@@ -110,7 +109,7 @@ const Page = () =>{
             <List>
                 <ListItem>
                 <Link href="https://github.com/Bruce-liushaopeng" target="_blank">
-                    <Button variant="ghost" colorScheme={"teal"} leftIcon={<Icon as={GoMarkGithub}/>}>
+                    <Button variant="ghost" colorScheme={"teal"} leftIcon={<Icon as={AiFillGithub}/>}>
                         @Bruce-liushaopeng
                     </Button>
                 </Link>

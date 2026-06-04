@@ -68,6 +68,10 @@
                     Work
                     </LinkItem>
 
+                    <LinkItem href="/game" path={path}>
+                    Game
+                    </LinkItem>
+
                 </Stack>
 
                 <Box flex={1} align="right">
@@ -86,6 +90,9 @@
                                 </NextLink>
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Work</MenuItem>
+                                </NextLink>
+                                <NextLink href="/game" passHref>
+                                    <MenuItem as={Link}>Game</MenuItem>
                                 </NextLink>
                                 
                                 <MenuItem as={Link} href="https://github.com/Bruce-liushaopeng/porfolio-homepage" >View Source</MenuItem>

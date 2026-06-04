@@ -40,7 +40,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
             borderRadius="12px"
           />
 
-        <LinkOverlay href={`pages/works/${id}`}>
+        <LinkOverlay as={NextLink} href={`/project/${id}`}>
           <Text
             mt={2}
             fontSize={22}
