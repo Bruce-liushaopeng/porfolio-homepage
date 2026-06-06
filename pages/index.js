@@ -21,7 +21,7 @@ const Page = () =>{
                 </Heading>
             <p >Software Developer (Open for opportunity)</p>
             <Box flexShrink={0} mt={{base:6,md:3}} ml={{md:6}} align="center">
-                <Image borderColor = "whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="130px" display="inline-block" borderRadius="full" src = "images/bruce.jpg" alt="profile image"/>
+                <Image borderColor = "whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="130px" display="inline-block" borderRadius="full" src = "/images/bruce.jpg" alt="profile image"/>
             </Box>
         </Box>
         </Box>
