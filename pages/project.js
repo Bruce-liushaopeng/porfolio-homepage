@@ -14,6 +14,7 @@ import thumbWokeout from '../public/images/works/wokeout/wokeout_01.png'
 import calculator from '../public/images/works/calculator/calculator01.png'
 import eCommerce from '../public/images/works/e-commerce/banger.png'
 import zombieShooting from '../public/images/works/zombie-shooting/start-screen.png'
+import skyCircuit from '../public/images/works/sky-circuit-45/plane-thumbnail.png'
 
 const Works = () => {
   return (
@@ -23,6 +24,11 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="sky-circuit-45" title="Sky Circuit 45" thumbnail={skyCircuit}>
+            Simple JavaScript airplane shooting game
+          </WorkGridItem>
+      </Section>
       <Section>
           <WorkGridItem id="zombie-shooting" title="Pixel Outbreak Survivor" thumbnail={zombieShooting}>
             Top-down city survival shooter with procedural pixel sprites
